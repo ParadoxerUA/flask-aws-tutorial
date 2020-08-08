@@ -1,6 +1,7 @@
 .pyc
 .vscode/
 flask-aws/
+__pycahe__/
 
 # Elastic Beanstalk Files
 .elasticbeanstalk/*

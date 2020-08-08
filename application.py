@@ -19,4 +19,4 @@ if __name__ == '__main__':
     from config import ProductionConfig
 
     application = create_app(ProductionConfig)
-    application.run()
+    application.run(host='0.0.0.0')

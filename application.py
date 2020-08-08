@@ -10,7 +10,7 @@ def create_app(config):
     db.init_app(application)
     application.register_blueprint(bp)
     application.app_context().push()
-    application.debug=True
+    # application.debug=True
     db.create_all()
     return application
 
